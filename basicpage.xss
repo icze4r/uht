@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<!-- —*— -->
+
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon-precomposed" href="favicon.png">
+
+<title>icze4r (´・ω・ ｀)</title>
+
+<!-- Vanity -->
+
+<!-- SEO Snippet -->
+
+<meta name="description" content="x">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@icze4r" />
+<meta name="twitter:creator" content="@icze4r" />
+<meta property="og:url" content="url" />
+<meta property="og:title" content="title" />
+<meta property="og:description" content="f" />
+<meta property="og:image" content="yerl" />
+
+
+
+<!-- CSS -->
+	
+<link rel="stylesheet" type="text/css" href="c/core.css">
+
+
+<!-- Scripts -->
+
+<!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+  
+<!-- Fonts called -->
+  
+<link href="https://fonts.googleapis.com/css?family=Andada" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+
+<style>body { background-image: url('i/i.background.jpg'); background-size: cover; background-attachment: fixed;}</style>
+
+</head>
+
+<body>
+
+</body>
+</html>
