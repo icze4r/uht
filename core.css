@@ -17,10 +17,10 @@ body {
   padding-bottom: 56px; 
 }
 
+/* Breakpoint for Mobile */
+
 @media (max-width:600px) {
-body  {
-  padding-bottom: 0px; 
-}
+body  { padding-bottom: 0px; }
 }
 
 .mirage {flex: 1 0 auto;}
