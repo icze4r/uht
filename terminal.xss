@@ -1,31 +1,48 @@
-/* These are Marathon-style terminals, only upscaled to 1024px, because it's an absolute horror to see them at their original size.  If you want them at their original size, go look at original.terminal.xss or whatever I called it... */
+
+/* Tools */
+
+/* Center Text in Bar */
+.ou { text-align: center; }
+
+/* Built-in clearfix! Marvelous! :3c */
+.fr { display: flow-root; }
+
+/* fontsies */
+.andada { font-family: Andada, Helvetica, Verdana, serif; }
+.term { font-family: Courier, monospace, Helvetica, Verdana; }
+
+/* 色 */
+.lime { color: #00FF00; }
+.red { color: #FF0000; }
+
+
+
+/* Term sizing */
+/* Scrunch und Stretch™ */
+.scrunch { min-height: auto; }
+.stretch { min-height: 375px; }
+
+/* Term text align */
+.termr {float: right; padding-right: 4px;}
+
+
 
 /* Terminal DIVs */
-/* These go one after another. They're centered. */
-/* So, <div class="t1">whatever</div> newLine <div class="t2">whateverinthebody</div> newLine <div class="t3">whateverinthefooter */
-/* ou is just a centering tool */
-
-/* Top <div class="t1">whatever</div> */
 
 .t1 {
-font-family: Courier, monospace, Helvetica;
 font-size: 0.75em;
 margin: 0 auto;
 min-height: 21px;
 background-color:#210000;
 padding-top:3px;
 padding-left: 2px;
-color: #FF0000;
 max-width:1024px;
 border-color: #333;
 border-style: solid;
 border-width: 2px 2px 0 2px;
 }
 
-.t2{
-font-family: 'Andada', Verdana, Courier, monospace;
-color: lime;
-min-height: 375px;
+.t2 {
 margin: 0 auto;
 background-color: #000;
 padding-top: 13px;
@@ -36,3 +53,54 @@ max-width: 1024px;
 border-right: 2px solid #333;
 border-left: 2px solid #333;
 }
+
+
+.t3 {
+font-size: 0.75em;
+margin: 0 auto;
+min-height: 21px;
+background-color: #210000;
+padding-top: 3px;
+padding-left: 2px;
+max-width: 1024px;
+border-bottom: 2px solid #333;
+border-left: 2px solid #333;
+border-right: 2px solid #333;
+}
+
+
+/* Terminal Imagery & Positioning */
+
+.termi {
+max-width: 375px;
+}
+
+@media (max-width: 600px) {
+.termi {
+max-width: 100%; }
+}
+
+.ppositio {
+float: left;
+padding-right: 21px;
+}
+
+@media (max-width: 600px) {
+.ppositio {
+float: none;
+padding-right: 0px; }
+}
+
+
+.oppositio {
+float: right;
+padding-left: 21px;
+}
+
+@media (max-width: 600px) {
+.oppositio {
+float: none;
+padding-left: 0px; }
+}
+
+/* nadia */
