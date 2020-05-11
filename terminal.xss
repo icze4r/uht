@@ -1,0 +1,38 @@
+/* These are Marathon-style terminals, only upscaled to 1024px, because it's an absolute horror to see them at their original size.  If you want them at their original size, go look at original.terminal.xss or whatever I called it... */
+
+/* Terminal DIVs */
+/* These go one after another. They're centered. */
+/* So, <div class="t1">whatever</div> newLine <div class="t2">whateverinthebody</div> newLine <div class="t3">whateverinthefooter */
+/* ou is just a centering tool */
+
+/* Top <div class="t1">whatever</div> */
+
+.t1 {
+font-family: Courier, monospace, Helvetica;
+font-size: 0.75em;
+margin: 0 auto;
+min-height: 21px;
+background-color:#210000;
+padding-top:3px;
+padding-left: 2px;
+color: #FF0000;
+max-width:1024px;
+border-color: #333;
+border-style: solid;
+border-width: 2px 2px 0 2px;
+}
+
+.t2{
+font-family: 'Andada', Verdana, Courier, monospace;
+color: lime;
+min-height: 375px;
+margin: 0 auto;
+background-color: #000;
+padding-top: 13px;
+padding-bottom: 7px;
+padding-left: 20px;
+padding-right: 20px;
+max-width: 1024px;
+border-right: 2px solid #333;
+border-left: 2px solid #333;
+}
